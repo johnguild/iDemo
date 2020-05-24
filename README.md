@@ -1,11 +1,7 @@
 # iDemo
 Android application for demo purposes.
 
-![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_1.png "Home Screen shot")
-
-![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_2.png "Details Screen shot with description")
-
-![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_3.png "Details Screen shot without description")
+![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_1.png "Home Screen shot") ![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_2.png "Details Screen shot with description") ![alt text](https://github.com/johnguild/iDemo/blob/master/Screenshot_3.png "Details Screen shot without description")
 
 What the app can do?
 
@@ -38,5 +34,13 @@ Architecture.
 
 
 Internal Documentation.
+
     Source code contains comments and instruction how or why it was structured or designed like that.
+
+
+Unit Tests.
+
+    The code contains two Test Case.
+    1. Testing search requests on server.
+    2. Testing data manipulation on local database.
 
