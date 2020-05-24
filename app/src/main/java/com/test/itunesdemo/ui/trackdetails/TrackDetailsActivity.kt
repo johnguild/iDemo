@@ -57,6 +57,12 @@ class TrackDetailsActivity : AppCompatActivity() {
                                 track.kind
                             )
                         )
+                        .error(
+                            getDefaultArtworkResourceId(
+                                track.wrapperType,
+                                track.kind
+                            )
+                        )
                 )
                 .into(binding.artworkImg)
 

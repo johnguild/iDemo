@@ -77,6 +77,12 @@ class ItemTrack(itemView: View, listener: VisitableListener) :
                             compact.track.kind
                         )
                     )
+                    .error(
+                        getDefaultArtworkResourceId(
+                            compact.track.wrapperType,
+                            compact.track.kind
+                        )
+                    )
             )
             .into(artworkImg)
 
